@@ -1,0 +1,49 @@
+<!-- HTML = Hyper Text Markup Language -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <!-- TAG PRINCIPAL -->
+<head>
+    <!-- CABEÇA -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pensamento Computacional: Página Experimental</title>
+    
+    <!-- ESTILO - CSS -->
+    <style>
+
+        body{
+            background-color: blue;
+        }
+        h1 {
+            background-color: rgb(168, 248, 168);
+            color: rgb(1, 73, 11);
+            font-size: 36px;
+            font-family:'Courier New', Courier, monospace
+        }
+
+        button {
+            color: black;
+            font-weight: 300;
+            background-color: rgb(2, 250, 2);
+            font-family:'Courier New', Courier, monospace
+        }
+    </style>
+</head>
+<body>
+    <!-- CORPO -->
+    <h1>Olá Mundo!</h1>
+
+        <button onclick="clique()">Clique em mim se você for um humano</button>
+        <button id="ForaBolsonaro" onclick="clique1()">2022 será o ano de...</button>
+        <script>
+            function clique(){
+                alert("É... Aparentemente, você é um humano. :P");
+            }
+            function clique1(){
+                alert("FB!!!");
+            }
+        </script>
+</body>
+</html>
