@@ -1,4 +1,4 @@
-//Queremos fazer um problema para dizer se hoje está frio ou calor.
+//Queremos fazer uma fiunção para dizer se hoje está frio ou calor.
 
 //ESTRUTURAS CONDICIONAIS
 
