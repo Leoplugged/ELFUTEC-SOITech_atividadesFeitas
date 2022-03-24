@@ -1,3 +1,5 @@
+//Criar primeira função .js que calcula preço da gasolina.
+
 const precoGasolina = 6.6;
 const qtddLitros = 10;
 const total = precoGasolina * qtddLitros;
